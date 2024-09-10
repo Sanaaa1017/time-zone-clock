@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>台灣時區vs英國時區</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./timer.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- 台灣時鐘 -->
+        <div class="clock-container taiwan">
+            <h2>Taiwan</h2>
+            <div class="clock">
+                <div class="hand hour" id="local-hour"></div>
+                <div class="hand minute" id="local-minute"></div>
+                <div class="hand second" id="local-second"></div>
+                <div class="center"></div>
+                <div class="number number-3">3</div>
+                <div class="number number-6">6</div>
+                <div class="number number-9">9</div>
+                <div class="number number-12">12</div>
+            </div>
+            <div class="time-display" id="local-time-display"></div>
+            <div class="sun local-sun"></div>
+            <div class="moon local-moon"></div>
+            <div class="moutain1 mt-1"></div>
+            <div class="moutain2 mt-2"></div>
+        </div>
+
+        <!-- 英國時鐘 -->
+        <div class="clock-container england">
+            <h2>England</h2>
+            <div class="clock">
+                <div class="hand hour" id="uk-hour"></div>
+                <div class="hand minute" id="uk-minute"></div>
+                <div class="hand second" id="uk-second"></div>
+                <div class="center"></div>
+                <div class="number number-3">3</div>
+                <div class="number number-6">6</div>
+                <div class="number number-9">9</div>
+                <div class="number number-12">12</div>
+            </div>
+            <div class="time-display" id="uk-time-display"></div>
+            <div class="sun uk-sun"></div>
+            <div class="moon uk-moon"></div>
+            <div class="moutain1 mt-3"></div>
+            <div class="moutain2 mt-4"></div>
+        </div>
+        <img src="./image/cloud-1.png" class="cloud-1" alt="雲">
+        <img src="./image/cloud-2.png" class="cloud-2" alt="雲">
+        <img src="./image/cloud-3.png" class="cloud-3" alt="雲">
+        <img src="./image/tree-1.png" class="tree-1" alt="樹">
+        <img src="./image/tree-2.png" class="tree-2" alt="樹">
+        <img src="./image/tree-3.png" class="tree-3" alt="樹">
+    </div>
+
+    <script src="./timer.js"></script>
+</body>
+
+</html>
